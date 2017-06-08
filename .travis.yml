@@ -17,5 +17,5 @@ before_install:
   - npm --version
 install:
   - npm install -g serverless
-deploy:
+after_script:
   - sls deploy
