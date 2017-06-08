@@ -1,0 +1,18 @@
+service: sls-java-node
+
+provider:
+  name: aws
+  runtime: java8
+  stage: dev
+  region: eu-central-1
+
+package:
+  artifact: target/hello-dev.jar
+
+functions:
+  hello:
+    handler: com.serverless.Handler
+    events:
+      - http:
+        path: hello
+        method: get
