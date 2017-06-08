@@ -17,5 +17,7 @@ before_install:
   - npm --version
 install:
   - npm install -g serverless
+script:
+  - mvn clean install -B
 after_script:
   - sls deploy
