@@ -14,5 +14,5 @@ functions:
     handler: com.serverless.Handler
     events:
       - http:
-        path: hello
-        method: get
+          path: hello
+          method: get

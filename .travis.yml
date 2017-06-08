@@ -6,7 +6,6 @@ jdk:
 cache:
   directories:
     - $HOME/.m2
-    - node_modules
 
 env:
   - NODE_VERSION="6"
