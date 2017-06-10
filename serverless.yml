@@ -1,9 +1,9 @@
-service: sls-java-node
+service: java-lambda-travis-sls
 
 provider:
   name: aws
   runtime: java8
-  stage: dev
+  stage: demo
   region: eu-central-1
 
 package:
