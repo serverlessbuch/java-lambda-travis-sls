@@ -1,4 +1,4 @@
-# CI/CD Pipeline with Travis CI for a Java-based Serverless app (AWS Lambda)
+# CI/CD Pipeline with Travis CI for Java-based Serverless apps (AWS Lambda)
 
 Running automated CI/CD _(Continuous Integration/Continuous Delivery)_ deployment pipelines is a general standard in nowadays software development.
 It gives you reproducable and reliable results of your building blocks and is a _must_ for agile development and for microservices.
